@@ -1,0 +1,26 @@
+<?php
+namespace App\GraphQL\Queries;
+
+use Rebing\GraphQL\Support\Facades\GraphQL;
+use GraphQL\Type\Definition\ResolveInfo;
+use Rebing\GraphQL\Support\Query;
+
+class TestQuery679 extends Query
+{
+    protected $attributes = [
+        'name' => 'test679'
+    ];
+
+    public function type()
+    {
+        return GraphQL::type('test679');
+    }
+
+    public function resolve($root, $args, $context, ResolveInfo $resolveInfo)
+    {
+        return [
+            'id' => 1
+        ];
+    }
+}
+

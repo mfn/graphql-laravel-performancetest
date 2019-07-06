@@ -11,7 +11,7 @@ class TestQuery1834 extends Query
         'name' => 'test1834'
     ];
 
-    public function type()
+    public function type(): \GraphQL\Type\Definition\Type
     {
         return GraphQL::type('test1834');
     }

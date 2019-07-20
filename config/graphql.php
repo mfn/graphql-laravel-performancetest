@@ -10041,4 +10041,5 @@ return [
     'defaultFieldResolver' => null,
     'headers' => [],
     'json_encoding_options' => 0,
+    'lazyload_types' => true
 ];

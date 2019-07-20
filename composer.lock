@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "90e19d43e371dec1edda916d7596cc09",
+    "content-hash": "65b0c42312ec191d581ccccc2fc4d97b",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1406,16 +1406,16 @@
         },
         {
             "name": "rebing/graphql-laravel",
-            "version": "dev-master",
+            "version": "v2.0.0-RC4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rebing/graphql-laravel.git",
-                "reference": "6689d37147cbb023e1acbbcce5cc553a15c9b313"
+                "reference": "2d9ea7305acf016e3a38ea3c2a7fbf9f4839c3cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rebing/graphql-laravel/zipball/6689d37147cbb023e1acbbcce5cc553a15c9b313",
-                "reference": "6689d37147cbb023e1acbbcce5cc553a15c9b313",
+                "url": "https://api.github.com/repos/rebing/graphql-laravel/zipball/2d9ea7305acf016e3a38ea3c2a7fbf9f4839c3cd",
+                "reference": "2d9ea7305acf016e3a38ea3c2a7fbf9f4839c3cd",
                 "shasum": ""
             },
             "require": {
@@ -1453,30 +1453,30 @@
             ],
             "authors": [
                 {
+                    "name": "Rebing OÜ",
+                    "role": "Company",
+                    "homepage": "http://www.rebing.ee"
+                },
+                {
+                    "name": "Mikk Mihkel Nurges",
+                    "role": "Developer",
+                    "email": "mikk.nurges@rebing.ee"
+                },
+                {
                     "name": "Folklore",
                     "email": "info@atelierfolklore.ca",
                     "homepage": "http://atelierfolklore.ca"
                 },
                 {
                     "name": "David Mongeau-Petitpas",
+                    "role": "Developer",
                     "email": "dmp@atelierfolklore.ca",
-                    "homepage": "http://mongo.ca",
-                    "role": "Developer"
+                    "homepage": "http://mongo.ca"
                 },
                 {
                     "name": "Markus Fischer",
-                    "email": "markus@fischer.name",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Rebing OÜ",
-                    "homepage": "http://www.rebing.ee",
-                    "role": "Company"
-                },
-                {
-                    "name": "Mikk Mihkel Nurges",
-                    "email": "mikk.nurges@rebing.ee",
-                    "role": "Developer"
+                    "role": "Developer",
+                    "email": "markus@fischer.name"
                 }
             ],
             "description": "Laravel wrapper for PHP GraphQL",
@@ -1486,7 +1486,7 @@
                 "laravel",
                 "react"
             ],
-            "time": "2019-07-06T09:10:37+00:00"
+            "time": "2019-07-19T23:06:24+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4779,9 +4779,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "rebing/graphql-laravel": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

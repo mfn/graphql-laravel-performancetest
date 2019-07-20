@@ -12,7 +12,7 @@
         "fideloper/proxy": "^4.0",
         "laravel/framework": "5.8.*",
         "laravel/tinker": "^1.0",
-        "rebing/graphql-laravel": "dev-master#6689d37147cbb023e1acbbcce5cc553a15c9b313"
+        "rebing/graphql-laravel": "2.0.0-RC4"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",

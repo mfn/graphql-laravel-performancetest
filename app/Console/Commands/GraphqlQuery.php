@@ -47,8 +47,9 @@ class GraphqlQuery extends Command
 GRAPHQL;
 
         $start = microtime(true);
-        \Rebing\GraphQL\Support\Facades\GraphQL::query($graphql);
+        $result = \Rebing\GraphQL\Support\Facades\GraphQL::query($graphql);
         $end = microtime(true);
+        echo json_encode($result, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES), "\n";
 
         $time = ($end - $start) * 1000;
 

@@ -13,7 +13,7 @@ class TestQuery84 extends Query
 
     public function type(): \GraphQL\Type\Definition\Type
     {
-        return GraphQL::type('test84');
+        return GraphQL::type('TestType84');
     }
 
     public function resolve($root, $args, $context, ResolveInfo $resolveInfo)

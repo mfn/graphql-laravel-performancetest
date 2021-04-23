@@ -12,7 +12,8 @@
         "laravel/framework": "^8.12",
         "laravel/octane": "dev-master",
         "laravel/tinker": "^2.5",
-        "rebing/graphql-laravel": "dev-master"
+        "rebing/graphql-laravel": "dev-master",
+        "spiral/roadrunner": "^2.0"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
